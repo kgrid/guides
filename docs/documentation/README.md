@@ -52,11 +52,9 @@ sidebar: auto
 
 ### Python Runtime
 
-[comment]: <> (- [User Documentation]&#40;https://kgrid.org/kgrid-python-runtime/&#41;)
 - [Github](https://github.com/kgrid/kgrid-python-runtime/)
 
 ## Example KO Collection
 
 - [User Documentation](https://kgrid-objects.github.io/example-collection/)
 - [Github](https://github.com/kgrid-objects/example-collection/)
-
