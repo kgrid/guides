@@ -53,7 +53,7 @@ KGRID Components are installed at: ../mygrid/.kgrid
 
   KGRID Library:   version 1.2.8    Latest Version
 
-  KGRID Activator: version 1.3.6    Latest Version
+  KGRID Activator: version 1.7.0    Latest Version
 
 ______________________________________________________________
 @kgrid/cli/0.5.6 darwin-x64 node-v10.15.3
@@ -65,7 +65,7 @@ library are running. You will point to a manifest file to tell
 the Activator to load example objects.
 
 ```bash
-> kgrid start -m https://github.com/kgrid-objects/example-collection/releases/download/3.0.0/start-up-manifest.json
+> kgrid start -m https://github.com/kgrid-objects/example-collection/releases/download/4.2.1/getting-started-manifest.json
 KGrid CLI v0.5.6
 
 Checking KGrid Components Version ...
@@ -73,12 +73,12 @@ KGRID Components are installed at: /Users/pboisver/dev/42/.kgrid
 
   KGRID Library:   version 1.2.8    Latest Version
 
-  KGRID Activator: version 1.3.6    Latest Version
+  KGRID Activator: version 1.7.0    Latest Version
 
-java -jar ./.kgrid/kgrid-library-1.2.8.jar --kgrid.shelf.cdostore.url=filesystem:file:////Users/username/mygrid --server.port=8081 --kgrid.shelf.manifest=https://github.com/kgrid-objects/example-collection/releases/download/3.0.0/start-up-manifest.json
+java -jar ./.kgrid/kgrid-library-1.2.8.jar --kgrid.shelf.cdostore.url=filesystem:file:////Users/username/mygrid --server.port=8081 --kgrid.shelf.manifest=https://github.com/kgrid-objects/example-collection/releases/download/4.2.1/getting-started-manifest.json
 
 Starting KGrid library...
-java -jar ./.kgrid/kgrid-activator-1.3.6.jar --kgrid.shelf.cdostore.url=filesystem:file:////Users/username/mygrid --kgrid.shelf.manifest=https://github.com/kgrid-objects/example-collection/releases/download/3.0.0/start-up-manifest.json
+java -jar ./.kgrid/kgrid-activator-1.7.0.jar --kgrid.shelf.cdostore.url=filesystem:file:////Users/username/mygrid --kgrid.shelf.manifest=https://github.com/kgrid-objects/example-collection/releases/download/4.2.1/getting-started-manifest.json
 
 Starting KGrid activator...
 ```
